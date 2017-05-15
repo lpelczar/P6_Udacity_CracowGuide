@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/nightlife_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/nightlife_image"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/nightlife_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/nigfhtlife_address_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/nightlife_name_text_view"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Address" />
+
+        <TextView
+            android:id="@+id/nightlife_description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/nigfhtlife_address_text_view"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/nightlife_tags_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/nightlife_description_text_view"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="Tags" />
+
+        <TextView
+            android:id="@+id/nighlife_type_text_view"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="8dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            tools:text="Type"
+            android:drawableLeft="@drawable/ic_local_bar_black_18dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_czesc">Cześć!</string>
+    <string name="polish_jak_sie_masz">Jak się masz?</string>
+    <string name="polish_nie_mowie_po_polsku">Nie mówię po polsku</string>
+    <string name="polish_jak_masz_na_imie">Jak masz na imię?</string>
+    <string name="polish_mam_na_imie">Mam na imię...</string>
+    <string name="polish_czy_chcesz_zatanczyc">Czy chcesz zatańczyć?</string>
+    <string name="polish_jaki_masz_numer_telefonu">Jaki masz numer telefonu?</string>
+    <string name="polish_czy_moge_zaoferowac_ci_drinka">Czy mogę zaoferować Ci drinka?</string>
+</resources>
