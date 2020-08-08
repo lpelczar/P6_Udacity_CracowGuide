@@ -9,4 +9,6 @@ Project 6: Tour Guide App - Create an app to guide a user around a city or locat
 
 ## Screenshots
 
-![cracow](http://i67.tinypic.com/kdx5jp.jpg)
+<img src="https://raw.github.com/lpelczar/P6_Udacity_CracowGuide/master/screenshots/p6-1.png" width="600">
+
+<img src="https://raw.github.com/lpelczar/P6_Udacity_CracowGuide/master/screenshots/p6-2.png" width="600">
